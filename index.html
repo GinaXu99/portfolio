@@ -1,188 +1,319 @@
-<!DOCTYPE HTML>
-<!--
-	Stellar by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Gina's Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Free HTML5 Website Template by freehtml5.co"
+    />
+    <meta
+      name="keywords"
+      content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive"
+    />
+    <meta name="author" content="freehtml5.co" />
 
-<head>
-	<title>Gina's Portfolio</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<noscript>
-		<link rel="stylesheet" href="assets/css/noscript.css" />
-	</noscript>
-</head>
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:url" content="" />
+    <meta name="twitter:card" content="" />
 
-<body class="is-preload">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800" rel="stylesheet">	 -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Inconsolata:400,700"
+      rel="stylesheet"
+    />
 
-	<!-- Wrapper -->
-	<div id="wrapper">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="css/animate.css" />
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="css/icomoon.css" />
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <!-- Flexslider  -->
+    <link rel="stylesheet" href="css/flexslider.css" />
 
-		<!-- Header -->
-		<header id="header" class="alt">
-			<span class="logo"><img src="images/dev_image.jpeg"
-					style="border-radius: 100%; height: 160px; width: 160px;" /></span>
-			<P>
-			<h2><strong>Hello & Welcome!</strong></h2>My name is Gina and welcome to my page, this site is designed to
-			tell you a bit about my background and the
-			projects I worked on, and please feel free to reach out!
-			</P>
-			<dl>
-				<dd>Location @ Melbourne, Australia</dd>
-				<dd>Email: ginnageoxy@gmail.com</dd>
-			</dl>
-			<ul class="icons">
-				<li><a href="https://www.linkedin.com/in/gina-xu-474184139/" class="icon brands fa-linkedin alt"><span
-							class="label">LinkedIn</span></a></li>
-				<li><a href="https://github.com/GinaXu99/" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
-				<li><a href="https://www.youtube.com/@ginaxu5462/playlists/"
-						class="icon brands fa-youtube alt"><span class="label">Youtube</span></a></li>
-			</ul>
-		</header>
+    <!-- Theme style  -->
+    <link rel="stylesheet" href="css/style.css" />
 
-		<!-- Nav -->
-		<nav id="nav">
-			<ul>
-				<li><strong><a href="index.html" class="active">Home</a></strong></li>
-				<li><strong><a href="bookstore.html">Bookstore App</a></strong></li>
-				<li><strong><a href="blog.html">Blog Project</a></strong></li>
-				<li><strong><a href="guessgame.html">GuessNumber Project</a></strong></li>
-				<li><strong><a href="textanalytics.html">TextAnalytics Project</a></strong></li>
-				<li><strong><a href="microservice.html">Microservice Project</a></strong></li>
-			</ul>
-		</nav>
+    <!-- Modernizr JS -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div id="page">
+      <nav class="fh5co-nav" role="navigation">
+        <div class="top-menu">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-1">
+                <div id="fh5co-logo">
+                  <a href="index.html">Gina's Portfolio<span>.</span></a>
+                </div>
+              </div>
+              <div class="col-xs-11 text-right menu-1">
+                <ul>
+                  <li class="active"><a href="index.html">Home</a></li>
+                  <li><a href="aboutme.html">About Me</a></li>
+                  <li class="has-dropdown">
+                    <a>Java/Spring Projects</a>
+                    <ul class="dropdown">
+                      <li><a href="bookstore.html">Bookstore Web App</a></li>
+                      <li><a href="blog.html">Blog RestFul API</a></li>
+                    </ul>
+                  </li>
+                  <li class="has-dropdown">
+                    <a>JavaScript Projects</a>
+                    <ul class="dropdown">
+                      <li><a href="workout.html">Workout Tracker</a></li>
+                      <li><a href="onlinebank.html">Online Bank</a></li>
+                    </ul>
+                  </li>
+                  <li class="has-dropdown">
+                    <a>React Projects</a>
+                    <ul class="dropdown">
+                      <li><a href="splitbill.html">Split Bill</a></li>
+                      <li><a href="packinglist.html">Packing List</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <ul class="fh5co-social-icons">
+                <li>
+                  <a href="https://github.com/GinaXu99?tab=repositories/"
+                    ><i class="icon-github"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.youtube.com/@ginaxu5462/"
+                    ><i class="icon-youtube"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/gina-xu-474184139/"
+                    ><i class="icon-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Project -->
+      <div id="fh5co-blog">
+        <div class="container">
+          <div class="row animate-box">
+            <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+              <h2>Recent Projects</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="fh5co-blog animate-box">
+                <a
+                  href="bookstore.html"
+                  class="blog-bg"
+                  style="background-image: url(images/bs_frontend.png)"
+                ></a>
+                <div class="blog-text">
+                  <h3>
+                    <a href="bookstore.html"
+                      >Full Stack Bookstore Web App (Java & Spring Framework)
+                    </a>
+                  </h3>
+                  <p>
+                    Integrated with Java Mail API to allow mail notification
+                    with user registeration and order use cases
+                  </p>
+                  <ul class="stuff">
+                    <!-- <li><i class="icon-heart2"></i>Youtube</li>
+                    <li><i class="icon-eye2"></i>Github</li> -->
+                    <li>
+                      <a href="bookstore.html"
+                        >View Details<i class="icon-arrow-right22"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!--here -->
+            <div class="col-md-6">
+              <div class="fh5co-blog animate-box">
+                <a
+                  href="blog.html"
+                  class="blog-bg"
+                  style="background-image: url(images/blogrest.png)"
+                ></a>
+                <div class="blog-text">
+                  <h3>
+                    <a href="blog.html"
+                      >Blog RestFul API (Java & Spring Framework)</a
+                    >
+                  </h3>
+                  <p>
+                    JWT Token based API designed to allow user create post, add
+                    comment to post and categorize each of them
+                  </p>
+                  <ul class="stuff">
+                    <!-- <li><i class="icon-youtube"></i>Youtube</li>
+        <li><i class="icon-github"></i>Github</li> -->
+                    <li>
+                      <a href="blog.html"
+                        >View Details<i class="icon-arrow-right22"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="fh5co-blog animate-box">
+                <a
+                  href="onlinebank.html"
+                  class="blog-bg"
+                  style="background-image: url(images/bank_1.png)"
+                ></a>
+                <div class="blog-text">
+                  <h3>
+                    <a href="onlinebank.html"> Online Bank (JavaScript) </a>
+                  </h3>
+                  <p>
+                    Online bank using JS to allow money transfer, loan request,
+                    login and close account features
+                  </p>
+                  <ul class="stuff">
+                    <!-- <li><i class="icon-heart2"></i>Youtube</li>
+                    <li><i class="icon-eye2"></i>Github</li> -->
+                    <li>
+                      <a href="onlinebank.html"
+                        >View Details<i class="icon-arrow-right22"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
 
+            <!--here-->
 
-		<!-- Main -->
-		<div id="main">
-
-			<!-- Introduction -->
-			<section id="intro" class="main">
-				<div class="spotlight">
-					<div class="content">
-						<header class="major">
-							<h2>A bit about Myself</h2>
-						</header>
-						<ul>
-							<li>I joined FDM Group Graduate Program after I finished my Master of IT degree from the
-								University of Melbourne in 2021. </li>
-							<li>As part of the Graudate Program, I was placed at IAG Insurance Company for the two-year period. </li>
-							<li>During my first year, I worked as Guidewire software Tester in Delivery Team for
-								NRMA West Project.</li>
-							<li>In the second year, I then transferred to Junior Dev Role, and worked as a Guidewire Developer at BAU squad.
-							</li>
-						</ul>
-
-						<strong>Technical Skills:</strong>
-						<ul>
-							<li><strong>Languages</strong>: Java (including Java 8 features), Javascript, HTML, CSS, SQL</li>
-							<li><strong> Spring Frameworks</strong>: Web, RESTFul, JPA Data, Spring Cloud and Spring Security</li>
-							<li><strong>Testing Frameworks</strong>: Junit & Mockito Testing framework & Integration testing</li>
-							<li><strong>Design Patterns and Data Structure</strong>: good understanding of data structure and design patterns</li>
-							<li><strong>Tools</strong>: Git, Docker, Linux, Jenkins, Bitbucket, Sourcetree,Postman, Swagger, MySQL, Postgres, Jira</li>
-
-						</ul>
-
-						
-						<strong>Education Background:</strong>
-						<ul>
-							<li>Master of Information Technology, University of Melbourne (2019 - 2021)</li>
-						</ul>
-
-						<strong>Below are the main proejcts I worked on in the last few months:</strong>
-						<ul>
-							<li>Java & Spring Framework Projects</li>
-							<li>Microserverice and Docker Projects</li>
-							<li>JavaScript Projects</li>
-						</ul>
-
-					</div>
-					<span class="image"><img src="images/dev_image.jpeg" style="border-radius: 100%; " /></span>
-				</div>
-			</section>
-
-			<!-- First Section -->
-			<!--		<section id="first" class="main special">
-				<header>
-					<h2></strong>Online Bookshop Web App</strong> </h2>
-				</header>
-					<div class="content">
-						<p></p>
-						<strong>Youtube Showcase click below: </strong> <br />
-						<a href="https://www.youtube.com/watch?v=Ks5vwz9eLLM&list=PLgtgfAKkaVjGJP79IO8Gr02I-rMOkOPFg&index=2/" class="icon brands fa-youtube alt"></a>
-					</div>
-				<footer class="major">
-					<ul class="actions special">
-						<li><a href="bookstore.html" class="button">View Project Details</a></li>
-					</ul>
-				</footer>
-			</section> -->
-
-			<!-- Second Section -->
-			<!--			<section id="second" class="main special">
-				<header>
-					<h2>Blog RestFul Project</h2>
-				</header>
-				<div class="content">
-				<strong><a href="https://www.youtube.com/watch?v=PJEYQEwr7KI&list=PLgtgfAKkaVjHQ7oHd93ne9E3Pv61f-8wU/"  class="icon brands fa-youtube alt" ></a>
-				</div>
-				<footer class="major">
-					<ul class="actions special">
-						<li><a href="blog.html" class="button">View Project Details</a></li>
-					</ul>
-				</footer>
-			</section> -->
-
-			<!-- Third Section -->
-			<!--			<section id="third" class="main special">
-				<header>
-					<h2>Microservice Project</h2>
-				</header>
-				<div class="content">
-					<a href="#">Youtube Showcase</a>
-				</div>
-				<footer class="major">
-					<ul class="actions special">
-						<li><a href="microservice.html" class="button">View Details</a></li>
-					</ul>
-				</footer>
-			</section>-->
-
-			<!-- Get Started -->
-			<!--			<section id="fourth" class="main special">
-				<header>
-					<h2>Fraud detection microservice project</h2>
-				</header>
-				<div class="content">
-					<a href="#">Youtube Showcase</a>
-				</div>
-				<footer class="major">
-					<ul class="actions special">
-						<li><a href="jsproject.html" class="button">View Details</a></li>
-					</ul>
-				</footer>
-			</section>
-
-		</div>
--->
-			<!-- Footer -->
-			<footer id="footer">
-			</footer>
-
-		</div>
-
-		<!-- Scripts -->
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/jquery.scrollex.min.js"></script>
-		<script src="assets/js/jquery.scrolly.min.js"></script>
-		<script src="assets/js/browser.min.js"></script>
-		<script src="assets/js/breakpoints.min.js"></script>
-		<script src="assets/js/util.js"></script>
-		<script src="assets/js/main.js"></script>
-
-</body>
-
+            <div class="col-md-6">
+              <div class="fh5co-blog animate-box">
+                <a
+                  href="workout.html"
+                  class="blog-bg"
+                  style="background-image: url(images/workout_1.png)"
+                ></a>
+                <div class="blog-text">
+                  <h3>
+                    <a href="workout.html"> Workout Tracker (JavaScript) </a>
+                  </h3>
+                  <p>
+                    Utlized Geolocation API to add, view and track your exercise
+                    activities
+                  </p>
+                  <ul class="stuff">
+                    <!-- <li><i class="icon-heart2"></i>Youtube</li>
+                    <li><i class="icon-eye2"></i>Github</li> -->
+                    <li>
+                      <a href="workout.html"
+                        >View Details<i class="icon-arrow-right22"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="fh5co-blog animate-box">
+                <a
+                  href="splitbill.html"
+                  class="blog-bg"
+                  style="background-image: url(images/splitbill2.png)"
+                ></a>
+                <div class="blog-text">
+                  <h3>
+                    <a href="splitbill.html"
+                      >Split Bill (Java & React Framework)
+                    </a>
+                  </h3>
+                  <p>
+                    Fun project that allows user to choose a friend to split
+                    bill with
+                  </p>
+                  <ul class="stuff">
+                    <!-- <li><i class="icon-heart2"></i>Youtube</li>
+                    <li><i class="icon-eye2"></i>Github</li> -->
+                    <li>
+                      <a href="splitbill.html"
+                        >View Details<i class="icon-arrow-right22"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="fh5co-blog animate-box">
+                <a
+                  href="packinglist.html"
+                  class="blog-bg"
+                  style="background-image: url(images/travel3.png)"
+                ></a>
+                <div class="blog-text">
+                  <h3>
+                    <a href="packinglist.html"
+                      >Travel Packing List (Java & React Framework)</a
+                    >
+                  </h3>
+                  <p>
+                    Retro style intefaces written using React help users to
+                    sort, track their travelling items
+                  </p>
+                  <ul class="stuff">
+                    <!-- <li><i class="icon-youtube"></i>Youtube</li>
+                    <li><i class="icon-github"></i>Github</li> -->
+                    <li>
+                      <a href="packinglist.html"
+                        >View Details<i class="icon-arrow-right22"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- jQuery Easing -->
+    <script src="js/jquery.easing.1.3.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <!-- Flexslider -->
+    <script src="js/jquery.flexslider-min.js"></script>
+    <!-- Main -->
+    <script src="js/main.js"></script>
+  </body>
 </html>
