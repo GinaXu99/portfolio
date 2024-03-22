@@ -1,318 +1,540 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Gina's Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="Free HTML5 Website Template by freehtml5.co"
-    />
-    <meta
-      name="keywords"
-      content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive"
-    />
-    <meta name="author" content="freehtml5.co" />
-
-    <!-- Facebook and Twitter integration -->
-    <meta property="og:title" content="" />
-    <meta property="og:image" content="" />
-    <meta property="og:url" content="" />
-    <meta property="og:site_name" content="" />
-    <meta property="og:description" content="" />
-    <meta name="twitter:title" content="" />
-    <meta name="twitter:image" content="" />
-    <meta name="twitter:url" content="" />
-    <meta name="twitter:card" content="" />
-
-    <!-- <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800" rel="stylesheet">	 -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🚀Gina Xu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css?family=Inconsolata:400,700"
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-
-    <!-- Animate.css -->
-    <link rel="stylesheet" href="css/animate.css" />
-    <!-- Icomoon Icon Fonts-->
-    <link rel="stylesheet" href="css/icomoon.css" />
-    <!-- Bootstrap  -->
-    <link rel="stylesheet" href="css/bootstrap.css" />
-    <!-- Flexslider  -->
-    <link rel="stylesheet" href="css/flexslider.css" />
-
-    <!-- Theme style  -->
-    <link rel="stylesheet" href="css/style.css" />
-
-    <!-- Modernizr JS -->
-    <script src="js/modernizr-2.6.2.min.js"></script>
-    <!-- FOR IE9 below -->
-    <!--[if lt IE 9]>
-      <script src="js/respond.min.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="index.js"></script>
   </head>
   <body>
-    <div id="page">
-      <nav class="fh5co-nav" role="navigation">
-        <div class="top-menu">
-          <div class="container">
-            <div class="row">
-              <div class="col-xs-1">
-                <div id="fh5co-logo">
-                  <a href="index.html">Gina's Portfolio<span>.</span></a>
-                </div>
-              </div>
-              <div class="col-xs-11 text-right menu-1">
+    <header class="header">
+      <nav class="nav">
+        <ul class="nav_links">
+          <li class="nav_item">
+            <a class="nav_link" href="#react-cabin"
+              >Most Recent <span>&nbsp;Project</span></a
+            >
+          </li>
+          <li class="nav_item">
+            <a class="nav_link" href="#overview"
+              >Portfolio<span>&nbsp;</span></a
+            >
+          </li>
+          <li class="nav_item">
+            <a class="nav_link" href="#aboutme">About<span>&nbsp; Me</span></a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header--contents">
+        <div class="nav_intro">
+          <h2>Hi, I am</h2>
+          <h1>Gina Xu</h1>
+          <h2>Welcome to My Page <span>.</span></h2>
+        </div>
+        <div class="nav_icons">
+          <a href="#react-cabin">Most Recent Project</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- OVERVIEW SECTION -->
+    <secion class="section section-overview" id="overview">
+      <h2>Recent Projects Overview</h2>
+      <div class="overview-container">
+        <div class="project-one">
+          <strong><p>Cabin Booking App</p></strong>
+          <img src="react1.png" alt="Image 1" />
+          <div class="project-one-content">
+            <a href="#react-cabin">View Details</a>
+          </div>
+        </div>
+
+        <div class="project-two">
+          <strong><p>Online Bookstore App</p></strong>
+          <img src="book1.png" alt="Image 1" />
+          <div class="project-two-content">
+            <a href="#spring-bookstore">View Details</a>
+          </div>
+        </div>
+
+        <div class="project-three">
+          <strong><p>Blog RestFul API</p></strong>
+          <img src="blog1.png" alt="Image 1" />
+          <div class="project-three-content">
+            <a href="#spring-blogapi">View Details</a>
+          </div>
+        </div>
+      </div>
+    </secion>
+    <!-- END OVERVIEW SECTION -->
+
+    <!-- PROJECT 1 -->
+    <section class="section" id="react-cabin">
+      <h2>Cabin Booking App</h2>
+      <div>
+        <div class="carousel-container" id="carousel-one">
+          <div class="carousel-item-one">
+            <img src="react1.png" alt="Image 1" />
+          </div>
+          <div class="carousel-item-one">
+            <img src="react2.png" alt="Image 2" />
+          </div>
+          <div class="carousel-item-one">
+            <img src="react3.png" alt="Image 3" />
+          </div>
+          <div class="carousel-item-one">
+            <img src="react4.png" alt="Image 3" />
+          </div>
+          <div class="carousel-item-one">
+            <img src="react5.png" alt="Image 3" />
+          </div>
+          <button class="carouselbtn prevBtn-one">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M20.3284 11.0001V13.0001L7.50011 13.0001L10.7426 16.2426L9.32842 17.6568L3.67157 12L9.32842 6.34314L10.7426 7.75735L7.49988 11.0001L20.3284 11.0001Z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+          <button class="carouselbtn nextBtn-one">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M15.0378 6.34317L13.6269 7.76069L16.8972 11.0157L3.29211 11.0293L3.29413 13.0293L16.8619 13.0157L13.6467 16.2459L15.0643 17.6568L20.7079 11.9868L15.0378 6.34317Z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+        </div>
+        <div class="project-description">
+          <p>
+            Wild Oasis is a booking management system for the staff worked at
+            this resort, to help them manage customer, cabins and bookings
+            overall. This app utlized React library with Supabase server API to
+            easily manage app data. React Query is used to manage entity state
+            to ensure performance is optmized with caching and prefetching
+            tools. Rechart library is used to help staff visual business data
+            with beautifully designed UI interface.
+          </p>
+
+          <ul class="project-list">
+            <li class="project-list-item">
+              <ion-icon
+                class="linkcontainer-icons"
+                name="rocket-outline"
+              ></ion-icon>
+
+              <p><strong> FrontEnd: </strong>React</p>
+            </li>
+            <li class="project-list-item">
+              <ion-icon
+                class="linkcontainer-icons"
+                name="planet-outline"
+              ></ion-icon>
+              <p><strong> Backend:</strong> Supabase Postgres database API</p>
+            </li>
+            <li class="project-list-item">
+              <ion-icon
+                class="linkcontainer-icons"
+                name="bag-outline"
+              ></ion-icon>
+              <p>
+                <strong>Third Party Libraries: </strong>
+                React Query, React Routers, Recharts, React-Form and Styled
+                Components
+              </p>
+            </li>
+          </ul>
+
+          <div class="project-links">
+            <div class="linkcontainer">
+              <a href="https://github.com/GinaXu99/ReactBooking/">
+                <ion-icon class="linkcontainer-icon" name="logo-github">
+                </ion-icon>
+              </a>
+              <!-- <p>Source Code</p> -->
+            </div>
+            <!-- <div class="linkcontainer">
+              <a href="https://www.youtube.com/@ginaxu5462">
+                <ion-icon class="linkcontainer-icon" name="logo-youtube">
+                </ion-icon>
+              </a>
+       
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END OF PROJECT1 -->
+
+    <!-- PROJECT 2 -->
+    <section class="section" id="spring-bookstore">
+      <h2>Online Bookstore App</h2>
+      <div>
+        <div class="carousel-container" id="carousel-two">
+          <div class="carousel-item-two">
+            <img src="book1.png" alt="Image 1" />
+          </div>
+          <div class="carousel-item-two">
+            <img src="book2.png" alt="Image 2" />
+          </div>
+          <div class="carousel-item-two">
+            <img src="book3.png" alt="Image 3" />
+          </div>
+          <button class="carouselbtn prevBtn-two">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M20.3284 11.0001V13.0001L7.50011 13.0001L10.7426 16.2426L9.32842 17.6568L3.67157 12L9.32842 6.34314L10.7426 7.75735L7.49988 11.0001L20.3284 11.0001Z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+          <button class="carouselbtn nextBtn-two">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M15.0378 6.34317L13.6269 7.76069L16.8972 11.0157L3.29211 11.0293L3.29413 13.0293L16.8619 13.0157L13.6467 16.2459L15.0643 17.6568L20.7079 11.9868L15.0378 6.34317Z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+        </div>
+        <div class="project-description">
+          <p>
+            Online Bookstore app provides both frontend portal for customers to
+            make book purchase, and admin portal for bookstore staff to manage
+            books. New Customer will be able to receive Mail Notification once
+            gets registered and also received Mail Notification once order is
+            placed. This bookstore permits all functionality with other
+            ecommerce website such as add/delete/update books and orders.
+          </p>
+
+          <ul class="project-list">
+            <li class="project-list-item">
+              <ion-icon
+                class="linkcontainer-icons"
+                name="rocket-outline"
+              ></ion-icon>
+              <p><strong> FrontEnd: </strong>Thymeleaf Engine for UI</p>
+            </li>
+            <li class="project-list-item">
+              <ion-icon
+                class="linkcontainer-icons"
+                name="planet-outline"
+              ></ion-icon>
+              <p><strong>Backend: </strong> SpringBoot and Java</p>
+            </li>
+            <li class="project-list-item">
+              <ion-icon
+                class="linkcontainer-icons"
+                name="bag-outline"
+              ></ion-icon>
+              <p>
+                <strong>Other Tools: </strong>Java Mail API and Postgres
+                Database
+              </p>
+            </li>
+          </ul>
+          <div class="project-links">
+            <div class="linkcontainer">
+              <a href="https://github.com/GinaXu99/bookstore_project/">
+                <ion-icon class="linkcontainer-icon" name="logo-github">
+                </ion-icon>
+              </a>
+              <!-- <p>Code</p> -->
+            </div>
+            <div class="linkcontainer">
+              <a
+                href="https://www.youtube.com/watch?v=Ks5vwz9eLLM&list=PLgtgfAKkaVjGJP79IO8Gr02I-rMOkOPFg/"
+              >
+                <ion-icon class="linkcontainer-icon" name="logo-youtube">
+                </ion-icon>
+              </a>
+              <!-- <p>Demo</p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END OF PROJECT1 -->
+
+    <!-- PROJECT 3 -->
+    <section class="section" id="spring-blogapi">
+      <h2>Blog RestFul API</h2>
+      <div>
+        <div class="carousel-container" id="carousel-three">
+          <div class="carousel-item-three">
+            <img src="blog1.png" alt="Image 1" />
+          </div>
+          <div class="carousel-item-three">
+            <img src="blog2.png" alt="Image 2" />
+          </div>
+          <!-- <div class="carousel-item-three">
+            <img src="book3.png" alt="Image 3" />
+          </div> -->
+          <button class="carouselbtn prevBtn-three">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M20.3284 11.0001V13.0001L7.50011 13.0001L10.7426 16.2426L9.32842 17.6568L3.67157 12L9.32842 6.34314L10.7426 7.75735L7.49988 11.0001L20.3284 11.0001Z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+          <button class="carouselbtn nextBtn-three">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M15.0378 6.34317L13.6269 7.76069L16.8972 11.0157L3.29211 11.0293L3.29413 13.0293L16.8619 13.0157L13.6467 16.2459L15.0643 17.6568L20.7079 11.9868L15.0378 6.34317Z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+        </div>
+        <div class="project-description">
+          <p>
+            This Blog Backend API allows users to create post, comments and link
+            each post with their comments. The highlight of this API is it uses
+            JWT token to secure each of the Http Requests while user interacting
+            with the Blog API.
+          </p>
+
+          <ul class="project-list">
+            <li class="project-list-item">
+              <ion-icon
+                class="linkcontainer-icons"
+                name="rocket-outline"
+              ></ion-icon>
+              <p><strong> Backend: </strong>Spring Boot Restful API</p>
+            </li>
+            <li class="project-list-item">
+              <ion-icon
+                class="linkcontainer-icons"
+                name="bag-outline"
+              ></ion-icon>
+              <p>
+                <strong>Other Tools: </strong>Postgres Database and JWT token
+              </p>
+            </li>
+          </ul>
+          <div class="project-links">
+            <div class="linkcontainer">
+              <a href="https://github.com/GinaXu99/blog_project/">
+                <ion-icon class="linkcontainer-icon" name="logo-github">
+                </ion-icon>
+              </a>
+              <!-- <p>Source Code</p> -->
+            </div>
+            <div class="linkcontainer">
+              <a href="https://www.youtube.com/watch?v=PJEYQEwr7KI/">
+                <ion-icon class="linkcontainer-icon" name="logo-youtube">
+                </ion-icon>
+              </a>
+              <!-- <p>Demo</p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END OF PROJECT1 -->
+
+    <!-- ABOUT ME  -->
+    <section class="section section--aboutme" id="aboutme">
+      <h2>About Me</h2>
+      <div class="operations">
+        <div class="operations--tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            <span class="operations-span">Work Experience</span>
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span class="operations-span">Education Background</span>
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span class="operations-span">Technical Skills</span>
+          </button>
+        </div>
+
+        <div class="content">
+          <div
+            class="operations__content operations__content--1 operations__content--active"
+          >
+            <img src="me.png" alt="person" />
+            <div class="operations__content-itembox">
+              <p>
+                I worked at IAG insurance company for 2.5 years right after I
+                finished my Master degree. In my first year, I worked in
+                delivery team for NRMA project as Software Assurance Analyst.
+                After that I shifted to Developer role, and have mostly worked
+                in BAU squad, in between I had the chance to participate in
+                SteadFast/Mulesoft Broker project.
+              </p>
+              <br />
+              <p>
+                I used to live in Brisbane for over 8 years before moving to
+                Melbourne. I did my bachelor study in Queensland University with
+                Psychological Science. In my spare time, I enjoyed watching
+                stand-up comedies a lot, and I also love running.
+              </p>
+            </div>
+          </div>
+
+          <div class="operations__content operations__content--2">
+            <img src="uni.jpeg" alt="person" />
+            <div class="operations__content-itembox">
+              <p class="operations__content-itembox_paragraph">
+                I finished my Master of Information Technology degree from
+                Melbourne University in 2021, with a major in Human Computer
+                Interaction(HCI).
+              </p>
+              <p class="operations__content-itembox_paragraph">
+                <strong>Some of the Coursework: </strong> Java, Database, Huamn
+                Computer Interaction Research Projects, Data Structure and
+                Alogrithm
+              </p>
+              <div class="operations__content-itembox_paragraph">
+                <p><strong>Highlight & Achievements: </strong></p>
                 <ul>
-                  <li class="active"><a href="index.html">Home</a></li>
-                  <li><a href="aboutme.html">About Me</a></li>
-                  <li class="has-dropdown">
-                    <a>Java/Spring Projects</a>
-                    <ul class="dropdown">
-                      <li><a href="bookstore.html">Bookstore Web App</a></li>
-                      <li><a href="blog.html">Blog RestFul API</a></li>
-                    </ul>
+                  <li>
+                    Musical Glove Project with C++ achieved top mark in the
+                    course
+                    <a href="https://www.youtube.com/watch?v=QSJbAhlMx_g/"
+                      >Demo</a
+                    >
                   </li>
-                  <li class="has-dropdown">
-                    <a>JavaScript Projects</a>
-                    <ul class="dropdown">
-                      <li><a href="workout.html">Workout Tracker</a></li>
-                      <li><a href="onlinebank.html">Online Bank</a></li>
-                    </ul>
-                  </li>
-                  <li class="has-dropdown">
-                    <a>React Projects</a>
-                    <ul class="dropdown">
-                      <li><a href="splitbill.html">Split Bill</a></li>
-                      <li><a href="packinglist.html">Packing List</a></li>
-                    </ul>
+                  <li>
+                    High Distinction Grades for two research projects in Human
+                    Computer Interactions
                   </li>
                 </ul>
               </div>
             </div>
-            <div class="row">
-              <ul class="fh5co-social-icons">
+          </div>
+          <div class="operations__content operations__content--3">
+            <img src="skill.jpg" alt="person" />
+            <div class="operations__content-itembox">
+              <ul class="operations__content-itembox-list">
                 <li>
-                  <a href="https://github.com/GinaXu99?tab=repositories/"
-                    ><i class="icon-github"></i
-                  ></a>
+                  <strong>Programming Languages:</strong> Java, JavaScript,
+                  HTML/CSS, SQL
                 </li>
                 <li>
-                  <a href="https://www.youtube.com/@ginaxu5462/"
-                    ><i class="icon-youtube"></i
-                  ></a>
+                  <strong>Frameworks: </strong>SpringBoot Backend Framework,
+                  React Frontend Framework
                 </li>
+                <li><strong>DevOps Tools:</strong> Docker</li>
                 <li>
-                  <a href="https://www.linkedin.com/in/gina-xu-474184139/"
-                    ><i class="icon-linkedin"></i
-                  ></a>
+                  <strong>Other Tools:</strong> Git, Postgres, Jenkins, Swagger,
+                  Jira, Bitbucket
                 </li>
               </ul>
             </div>
           </div>
         </div>
-      </nav>
-      <!-- Project -->
-      <div id="fh5co-blog">
-        <div class="container">
-          <div class="row animate-box">
-            <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-              <h2>Recent Projects</h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="fh5co-blog animate-box">
-                <a
-                  href="bookstore.html"
-                  class="blog-bg"
-                  style="
-                    background-image: url(images/bs_frontend.png);
-                    background-size: 100% 100%;
-                    background-position: center;
-                  "
-                ></a>
-                <div class="blog-text">
-                  <h3>
-                    <a href="bookstore.html"
-                      >Full Stack Bookstore Web App (Java & Spring Web
-                      Framework)
-                    </a>
-                  </h3>
-                  <ul class="stuff">
-                    <!-- <li><i class="icon-heart2"></i>Youtube</li>
-                    <li><i class="icon-eye2"></i>Github</li> -->
-                    <li>
-                      <a href="bookstore.html"
-                        >View Details<i class="icon-arrow-right22"></i
-                      ></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <!--here -->
-            <div class="col-md-6">
-              <div class="fh5co-blog animate-box">
-                <a
-                  href="blog.html"
-                  class="blog-bg"
-                  style="
-                    background-image: url(images/blogrest.png);
-                    background-size: 100% 100%;
-                    background-position: center;
-                  "
-                ></a>
-                <div class="blog-text">
-                  <h3>
-                    <a href="blog.html"
-                      >Blog RestFul API (Java & Spring RestFul Framework)</a
-                    >
-                  </h3>
-                  <ul class="stuff">
-                    <li>
-                      <a href="blog.html"
-                        >View Details<i class="icon-arrow-right22"></i
-                      ></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="fh5co-blog animate-box">
-                <a
-                  href="onlinebank.html"
-                  class="blog-bg"
-                  style="
-                    background-image: url(images/bank_1.png);
-                    background-size: 100% 100%;
-                    background-position: center;
-                  "
-                ></a>
-                <div class="blog-text">
-                  <h3>
-                    <a href="onlinebank.html"> Online Bank (JavaScript) </a>
-                  </h3>
-                  <ul class="stuff">
-                    <!-- <li><i class="icon-heart2"></i>Youtube</li>
-                    <li><i class="icon-eye2"></i>Github</li> -->
-                    <li>
-                      <a href="onlinebank.html"
-                        >View Details<i class="icon-arrow-right22"></i
-                      ></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <!--here-->
-
-            <div class="col-md-6">
-              <div class="fh5co-blog animate-box">
-                <a
-                  href="workout.html"
-                  class="blog-bg"
-                  style="
-                    background-image: url(images/workout_1.png);
-                    background-size: 100% 100%;
-                    background-position: center;
-                  "
-                ></a>
-                <div class="blog-text">
-                  <h3>
-                    <a href="workout.html"> Workout Tracker (JavaScript) </a>
-                  </h3>
-                  <ul class="stuff">
-                    <!-- <li><i class="icon-heart2"></i>Youtube</li>
-                    <li><i class="icon-eye2"></i>Github</li> -->
-                    <li>
-                      <a href="workout.html"
-                        >View Details<i class="icon-arrow-right22"></i
-                      ></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="fh5co-blog animate-box">
-                <a
-                  href="splitbill.html"
-                  class="blog-bg"
-                  style="
-                    background-image: url(images/splitbill2.png);
-                    background-size: 100% 100%;
-                    background-position: center;
-                  "
-                ></a>
-                <div class="blog-text">
-                  <h3>
-                    <a href="splitbill.html"
-                      >Split Bill (JavaScript & React Framework)
-                    </a>
-                  </h3>
-                  <ul class="stuff">
-                    <!-- <li><i class="icon-heart2"></i>Youtube</li>
-                    <li><i class="icon-eye2"></i>Github</li> -->
-                    <li>
-                      <a href="splitbill.html"
-                        >View Details<i class="icon-arrow-right22"></i
-                      ></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="fh5co-blog animate-box">
-                <a
-                  href="packinglist.html"
-                  class="blog-bg"
-                  style="
-                    background-image: url(images/travel3.png);
-                    background-size: 100% 100%;
-                    background-position: center;
-                  "
-                ></a>
-                <div class="blog-text">
-                  <h3>
-                    <a href="packinglist.html"></a>
-                      Pack Items (JavaScript & React Framework)</a
-                    >
-                  </h3>
-                  <ul class="stuff">
-                    <!-- <li><i class="icon-youtube"></i>Youtube</li>
-                    <li><i class="icon-github"></i>Github</li> -->
-                    <li>
-                      <a href="packinglist.html"
-                        >View Details<i class="icon-arrow-right22"></i
-                      ></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
-    </div>
-    <!-- jQuery -->
-    <script src="js/jquery.min.js"></script>
-    <!-- jQuery Easing -->
-    <script src="js/jquery.easing.1.3.js"></script>
-    <!-- Bootstrap -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Waypoints -->
-    <script src="js/jquery.waypoints.min.js"></script>
-    <!-- Flexslider -->
-    <script src="js/jquery.flexslider-min.js"></script>
-    <!-- Main -->
-    <script src="js/main.js"></script>
+    </section>
+    <!-- END OF ABOUT ME  -->
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer">
+      <div class="footer-icons">
+        <ul class="footer-list">
+          <li>
+            <a class="footer-list-item" href="https://github.com/GinaXu99">
+              <ion-icon
+                id="footer-icons"
+                class="footer-icons"
+                name="logo-github"
+              ></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a
+              class="footer-list-item"
+              href="https://www.youtube.com/@ginaxu5462"
+            >
+              <ion-icon
+                id="footer-icons"
+                class="footer-icons"
+                name="logo-youtube"
+              ></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a class="footer-list-item" href="mailto:ginnageoxy@gmail.com">
+              <ion-icon id="footer-icons" name="mail-outline"></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a
+              class="footer-list-item"
+              href="https://www.linkedin.com/in/gina-xu-474184139/"
+            >
+              <ion-icon
+                id="footer-icons"
+                class="footer-icons"
+                name="logo-linkedin"
+              ></ion-icon
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <address class="footer-address">Melbourne, Australia</address>
+      </div>
+      <div class="footer-copyright">
+        <p>&copy;2024 Gina Xu. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
