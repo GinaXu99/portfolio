@@ -157,9 +157,9 @@ body {
 .project-one img,
 .project-two img,
 .project-three img {
-  width: 35rem;
-  height: 24rem;
-  border-radius: 1.6rem;
+  width: 40rem;
+  height: 22rem;
+  /* border-radius: 1.6rem; */
 
   align-self: center;
   justify-self: center;
@@ -176,6 +176,14 @@ body {
   gap: 1rem;
 }
 
+.project-one-content a,
+.project-two-content a,
+.project-three-content a {
+  border: 0.2rem solid #f1f3f5;
+  border-radius: 1000px;
+  padding: 0.7rem 1.4rem;
+}
+
 .project-one a:link,
 .project-one a:active,
 .project-two a:link,
@@ -184,8 +192,8 @@ body {
 .project-three a:active {
   text-decoration: none;
   color: #f76707;
-  font-size: 1.4rem;
-  /* font-weight: bold; */
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 .project-one a:hover,
