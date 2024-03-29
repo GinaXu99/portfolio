@@ -34,9 +34,9 @@
       </nav>
       <div class="header--contents">
         <div class="nav_intro">
-          <h2>Hi, I am</h2>
-          <h1>Gina Xu</h1>
-          <h2>Welcome to My Page <span>.</span></h2>
+          <h2>Hello, I am</h2>
+          <h1>Gina.</h1>
+          <h2>Welcome to My Page<span>.</span></h2>
         </div>
         <div class="nav_icons">
           <a href="#react-cabin">Most Recent Project</a>
@@ -194,6 +194,9 @@
             <img src="book1.png" alt="Image 1" />
           </div>
           <div class="carousel-item-two">
+            <img src="book5.png" alt="Image 5" />
+          </div>
+          <div class="carousel-item-two">
             <img src="book2.png" alt="Image 2" />
           </div>
           <div class="carousel-item-two">
@@ -293,14 +296,17 @@
       <div>
         <div class="carousel-container" id="carousel-three">
           <div class="carousel-item-three">
-            <img src="blog1.png" alt="Image 1" />
+            <img src="blog11.png" alt="Image 1" />
           </div>
           <div class="carousel-item-three">
-            <img src="blog2.png" alt="Image 2" />
+            <img src="blog10.png" alt="Image 2" />
           </div>
-          <!-- <div class="carousel-item-three">
-            <img src="book3.png" alt="Image 3" />
-          </div> -->
+          <div class="carousel-item-three">
+            <img src="blog1.png" alt="Image 11" />
+          </div>
+          <div class="carousel-item-three">
+            <img src="blog12.png" alt="Image 12" />
+          </div>
           <button class="carouselbtn prevBtn-three">
             <svg
               width="24"
@@ -332,10 +338,11 @@
         </div>
         <div class="project-description">
           <p>
-            This Blog Backend API allows users to create post, comments and link
-            each post with their comments. The highlight of this API is it uses
-            JWT token to secure each of the Http Requests while user interacting
-            with the Blog API.
+            This Blog Backend API allows users to manage blog post, post
+            comments and post category securely with the use of JWT token for
+            each of the http post and update request. Blog API contract is
+            created via Swagger to allow all stakeholders understand this API
+            easily.
           </p>
 
           <ul class="project-list">
@@ -352,7 +359,8 @@
                 name="bag-outline"
               ></ion-icon>
               <p>
-                <strong>Other Tools: </strong>Postgres Database and JWT token
+                <strong>Other Tools: </strong>Postgres Database, JWT token and
+                Swagger API documentation
               </p>
             </li>
           </ul>
@@ -382,14 +390,14 @@
       <h2>About Me</h2>
       <div class="operations">
         <div class="operations--tab-container">
-          <button
-            class="btn operations__tab operations__tab--1 operations__tab--active"
-            data-tab="1"
-          >
-            <span class="operations-span">Work Experience</span>
-          </button>
-          <button class="btn operations__tab operations__tab--2" data-tab="2">
+          <button class="btn operations__tab operations__tab--1" data-tab="1">
             <span class="operations-span">Education Background</span>
+          </button>
+          <button
+            class="btn operations__tab operations__tab--2 operations__tab--active"
+            data-tab="2"
+          >
+            <span class="operations-span">Personal & Work Experience</span>
           </button>
           <button class="btn operations__tab operations__tab--3" data-tab="3">
             <span class="operations-span">Technical Skills</span>
@@ -398,7 +406,7 @@
 
         <div class="content">
           <div
-            class="operations__content operations__content--1 operations__content--active"
+            class="operations__content operations__content--2 operations__content--active"
           >
             <img src="me.png" alt="person" />
             <div class="operations__content-itembox">
@@ -420,13 +428,13 @@
             </div>
           </div>
 
-          <div class="operations__content operations__content--2">
+          <div class="operations__content operations__content--1">
             <img src="uni.jpeg" alt="person" />
             <div class="operations__content-itembox">
               <p class="operations__content-itembox_paragraph">
-                I finished my Master of Information Technology degree from
-                Melbourne University in 2021, with a major in Human Computer
-                Interaction(HCI).
+                <strong>Education:</strong> Master of Information Technology
+                degree from Melbourne University, majored in Human Computer
+                Interaction (HCI).
               </p>
               <p class="operations__content-itembox_paragraph">
                 <strong>Some of the Coursework: </strong> Java, Database, Huamn
@@ -437,15 +445,15 @@
                 <p><strong>Highlight & Achievements: </strong></p>
                 <ul>
                   <li>
-                    Musical Glove Project with C++ achieved top mark in the
-                    course
+                    Physical Programming Project: Musical Glove using C++ and
+                    Arduino: achieved top mark among the cohort undertook Novel
+                    Interaction Course
                     <a href="https://www.youtube.com/watch?v=QSJbAhlMx_g/"
-                      >Demo</a
+                      >Youtube Demo</a
                     >
                   </li>
                   <li>
-                    High Distinction Grades for two research projects in Human
-                    Computer Interactions
+                    High Distinction Grades for two research projects on HCI
                   </li>
                 </ul>
               </div>
@@ -459,14 +467,13 @@
                   <strong>Programming Languages:</strong> Java, JavaScript,
                   HTML/CSS, SQL
                 </li>
+                <li><strong>Backend Framework: </strong>Spring Boot</li>
+                <li><strong>Frontend Framework: </strong>Spring Boot</li>
+                <li><strong>Containerization Tool:</strong> Docker</li>
                 <li>
-                  <strong>Frameworks: </strong>SpringBoot Backend Framework,
-                  React Frontend Framework
-                </li>
-                <li><strong>DevOps Tools:</strong> Docker</li>
-                <li>
-                  <strong>Other Tools:</strong> Git, Postgres, Jenkins, Swagger,
-                  Jira, Bitbucket
+                  <strong>Other Tools/Knowledge:</strong>Microservices, API
+                  gateway, Git, PostgreSQL, MySQL, Jenkins, Swagger, Jira,
+                  Bitbucket
                 </li>
               </ul>
             </div>

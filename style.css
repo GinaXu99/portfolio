@@ -66,7 +66,7 @@ body {
 }
 
 .nav_link:hover {
-  border-bottom: 0.2rem solid #ff922b;
+  border-bottom: 0.2rem solid #f76707;
 }
 .nav_link:active,
 .nav_link:visited {
@@ -248,9 +248,9 @@ body {
   position: absolute;
 
   width: auto;
-  transform: translate(0%, 50%);
+  transform: translate(0%, 20%);
 
-  padding: 1.2rem 1rem;
+  padding: 1.2rem 1.2rem;
   color: #f8f9fa;
   border: none;
   background-color: #495057;
@@ -352,21 +352,22 @@ body {
 .operations--tab-container {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .operations__tab {
-  margin-left: 2.5rem;
+  margin: 1rem 1.7rem;
   border: none;
   transform: translateY(-50%);
 }
 
 .operations__tab span {
-  font-size: 1.7rem;
+  font-size: 1.4rem;
   color: #495057;
 
   font-weight: bold;
   display: inline-block;
-  padding: 1rem 0.6rem;
+  padding: 0.8rem 0.6rem;
 }
 
 .operations__tab--1,
@@ -379,7 +380,7 @@ body {
 .operations__tab--1:hover,
 .operations__tab--2:hover,
 .operations__tab--3:hover {
-  background-color: #ff922b;
+  background-color: #f76707;
 }
 
 .operations__tab--active {
@@ -394,16 +395,16 @@ body {
   color: #343a40;
 
   font-size: 1.8rem;
-  padding: 4rem 10rem 5rem 5rem;
-  /* padding: 2.5rem 7rem 6.5rem 7rem; */
+
+  padding: 2rem 1.5rem 10rem 7rem;
 
   width: 80rem;
-  height: 40rem;
+  height: 33rem;
 }
 
 .operations__content img {
-  width: 27rem;
-  height: 27rem;
+  width: 22rem;
+  height: 23rem;
   border-bottom-left-radius: 19%;
   border-top-right-radius: 19%;
 
@@ -416,13 +417,13 @@ body {
   align-self: flex-start;
 
   font-size: 1.6rem;
-  line-height: 2.4rem;
+  line-height: 2.5rem;
 }
 
 .operations__content--active {
   display: grid;
-  grid-template-columns: 1fr 58rem;
-  column-gap: 5rem;
+  grid-template-columns: 1fr 60rem;
+  column-gap: 4rem;
 }
 
 .operations__content-itembox_paragraph {
@@ -496,7 +497,7 @@ footer a:hover {
 .nav_icons a {
   border: 0.2rem solid #e9ecef;
   border-radius: 1000px;
-  padding: 1rem 1.4rem;
+  padding: 1.2rem 1.8rem;
 
   font-size: 1.6rem;
   font-weight: 450;
@@ -505,11 +506,12 @@ footer a:hover {
 .nav_icons a:visited,
 .nav_icons a:link {
   text-decoration: none;
-  color: #ff922b;
+  color: #fd7e14;
 }
 
 .nav_icons a:active,
 .nav_icons a:hover {
   text-decoration: none;
   color: #f76707;
+  font-weight: 580;
 }
